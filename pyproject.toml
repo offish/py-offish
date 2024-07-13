@@ -20,7 +20,7 @@ dependencies = ["requests"]
 dynamic = ["version"]
 
 [project.urls]
-"Homepage" = "https://github.com/offish/offish"
-"Bug Tracker" = "https://github.com/offish/offish/issues"
+"Homepage" = "https://github.com/offish/py-offish"
+"Bug Tracker" = "https://github.com/offish/py-offish/issues"
 
 [tool.setuptools_scm]

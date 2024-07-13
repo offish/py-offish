@@ -1,9 +1,9 @@
 import requests
 
 
-def get_version(user: str, repository: str, path: str) -> str:
-    url = "https://raw.githubusercontent.com/{}/{}/master/{}/__init__.py".format(
-        user, repository, path
+def get_version(user: str, repository: str, path: str, branch: str = "master") -> str:
+    url = "https://raw.githubusercontent.com/{}/{}/{}/{}/__init__.py".format(
+        user, repository, branch, path
     )
 
     r = requests.get(url)

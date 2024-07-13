@@ -1,5 +1,5 @@
 __title__ = "offish"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "offish"
 
 from .version import get_version
